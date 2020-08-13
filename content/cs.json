@@ -1,0 +1,16 @@
+{
+  "header": {
+    "title": "Nuxt.js startup framework!",
+    "desc": "Start your website or landing page with user friendly framework!"
+  },
+  "links": [
+    {
+      "url": "https://nuxtjs.org/",
+      "title": "Documentation"
+    },
+    {
+      "url": "https://github.com/nuxt/nuxt.js",
+      "title": "GitHub"
+    }
+  ]
+}

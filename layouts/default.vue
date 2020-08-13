@@ -34,22 +34,22 @@ html {
 .button--green {
   display: inline-block;
   border-radius: 4px;
-  border: 1px solid #3b8070;
-  color: #3b8070;
+  border: 1px solid #94b613;
+  color: #94b613;
   text-decoration: none;
   padding: 10px 30px;
 }
 
 .button--green:hover {
   color: #fff;
-  background-color: #3b8070;
+  background-color: #94b613;
 }
 
 .button--grey {
   display: inline-block;
   border-radius: 4px;
-  border: 1px solid #35495e;
-  color: #35495e;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  color: rgba(0, 0, 0, 0.1);
   text-decoration: none;
   padding: 10px 30px;
   margin-left: 15px;
@@ -57,6 +57,6 @@ html {
 
 .button--grey:hover {
   color: #fff;
-  background-color: #35495e;
+  background-color: rgba(0, 0, 0, 0.1);
 }
 </style>
