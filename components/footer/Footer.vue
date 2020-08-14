@@ -1,9 +1,9 @@
 <template>
   <div>
-    <article v-for="title in data.posts" :key="posts.id" class="links">
-      <div :posts="title">
-        <n-link :to="`/posts/${posts.id}`" class="button--green">
-          {{ posts.title }}
+    <article v-for="item in data.posts" :key="item.id" class="links">
+      <div :posts="item.title">
+        <n-link :to="`/posts/${item.id}`" class="button--green">
+          {{ item.title }}
         </n-link>
       </div>
     </article>
