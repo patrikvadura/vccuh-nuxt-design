@@ -1,10 +1,10 @@
 <template>
   <div>
     <Logo />
-    <h1 class="title" v-html="data.header.title">
+    <h1 class="title">
       {{ data.header.title }}
     </h1>
-    <p v-html="data.header.desc">
+    <p>
       {{ data.header.desc }}
     </p>
   </div>
@@ -23,11 +23,11 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.title {
-  font-family: Nunito, sans-serif;
-  display: block;
-  font-weight: 800;
-  font-size: 2.5em;
-  color: rgb(0, 197, 142);
-}
+  .title {
+    font-family: Nunito, sans-serif;
+    display: block;
+    font-weight: 800;
+    font-size: 2.5em;
+    color: rgb(0, 197, 142);
+  }
 </style>

@@ -17,13 +17,8 @@ export default {
     return {
       title: 'Nuxt starter framework',
       description: 'This is a description',
-      pageImage: 'https://code.luasoftware.com/img/logo-badge.png'
-    }
-  },
-  computed: {
-    pageUrl () {
-      const domain = this.$store.state.site.domain
-      return `https://${domain}/${this.$route.path}`
+      id: 'nuxt_starter_framework',
+      pageImage: 'https://www.patrikvadura.cz/images/og-image.jpg'
     }
   },
   head () {
@@ -59,17 +54,12 @@ export default {
         {
           hid: 'og:url',
           name: 'og:url',
-          content: this.pageUrl
+          content: `https://www.patrikvadura.cz/${this.id}`
         },
         {
           hide: 'twitter:card',
           name: 'twitter:card',
           content: this.pageImage ? 'summary_large_image' : 'summary'
-        },
-        {
-          hide: 'twitter:site',
-          name: 'twitter:site',
-          content: this.$store.state.site.twitter
         }
       ].filter(x => x.content)
     }
@@ -78,13 +68,13 @@ export default {
 </script>
 
 <style lang="scss">
-.container {
-  margin: 0 auto;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
+  .container {
+    margin: 0 auto;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
 </style>
