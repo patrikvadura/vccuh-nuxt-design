@@ -5,14 +5,12 @@
         <n-link :to="`/posts/${item.id}`" class="button--green">
           {{ item.title }}
         </n-link>
-        <ButtonDefault title="title" />
       </div>
     </article>
   </div>
 </template>
 
 <script>
-import ButtonDefault from '~/components/global/buttons/ButtonDefault'
 import data from '~/content/cs.json'
 export default {
   name: 'Footer',
