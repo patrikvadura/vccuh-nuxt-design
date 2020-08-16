@@ -1,8 +1,56 @@
 {
   "header": {
-    "title": "Nuxt.js startup framework!",
-    "desc": "Start your website or landing page with user friendly framework!"
+    "title": "Design System",
+    "desc": "Udržte vizuální styl vaší značky napříč všemi materiály."
   },
+  "menu": [
+    {
+      "id": "brand",
+      "link": "Značka"
+    },
+    {
+      "id": "foundations",
+      "link": "Základy"
+    },
+    {
+      "id": "components",
+      "link": "Komponenty"
+    },
+    {
+      "id": "resources",
+      "link": "Zdroje"
+    }
+  ],
+  "menuSecondary": [
+    {
+      "id": "git",
+      "link": "GitHub",
+      "icon": "add"
+    }
+  ],
+  "sectionBrand": {
+    "title": "Značka",
+    "desc": "Our brand reflects who we are and how we want our users to feel when they use our products.",
+    "button": "Objevte svoji značku!"
+  },
+  "sectionBrandItems": [
+    {
+      "id": "mission",
+      "title": "Mission",
+      "content": "Our mission is to unleash the potential in every team.",
+      "image": "add"
+    },
+    {
+      "id": "personality",
+      "title": "Personality",
+      "content": "Our personality describes the tone we use for external communications. It should be expressed as an embodiment of our values."
+    },
+    {
+      "id": "promise",
+      "title": "Promise",
+      "content": "Our promise is that our tools and practices will help teams work better together in an agile, open, and scalable way."
+    }
+  ],
   "posts": [
     {
       "id": "post1",

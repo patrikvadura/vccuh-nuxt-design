@@ -1,17 +1,16 @@
 <template>
-  <div class="container">
-    <Header />
-    <Footer />
+  <div>
+    <div>
+      <SectionBrand />
+    </div>
   </div>
 </template>
 
 <script>
-import Header from '~/components/header/Header'
-import Footer from '~/components/footer/Footer'
+import SectionBrand from '~/components/body/SectionBrand'
 export default {
   components: {
-    Header,
-    Footer
+    SectionBrand
   },
   data () {
     return {
@@ -68,13 +67,4 @@ export default {
 </script>
 
 <style lang="scss">
-  .container {
-    margin: 0 auto;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-  }
 </style>

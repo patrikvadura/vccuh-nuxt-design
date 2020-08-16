@@ -13,7 +13,7 @@ html {
 }
 
 body {
-  font-family: 'Nunito', sans-serif;
+  font-family: $font-primary;
   font-size: 1.6rem;
   background: #fff;
   color: #000;
@@ -25,4 +25,11 @@ img, iframe {
   max-width: 100%;
   vertical-align: middle;
   border: 0;
+}
+a {
+  transition: all 300ms ease-in-out;
+  text-decoration: none;
+  &:hover {
+    text-decoration: none;
+  }
 }

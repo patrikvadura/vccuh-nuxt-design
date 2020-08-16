@@ -7,6 +7,7 @@
 </template>
 
 <script>
+
 export default {
   name: 'ButtonDefault',
   props: {
@@ -20,6 +21,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+  @import '~/assets/scss/style';
   .custom-button {
     display: inline-flex;
     flex-direction: row;
@@ -27,14 +29,23 @@ export default {
     height: 3rem;
     line-height: 3rem;
     border-radius: .5rem;
-    background: #00000052;
+    background: #000;
     cursor: pointer;
+    transition: all 300ms ease-in-out;
+    &:hover {
+      background: $primary;
+    }
     &__title {
-       font-size: 1.8rem;
-       font-weight: 600;
-       text-align: center;
-       padding: 0 2.5rem;
-       color: #fff;
+      font-size: 1.2rem;
+      font-weight: 600;
+      text-align: center;
+      padding: 0 2.5rem;
+      color: #fff;
+      text-decoration: none;
+      transition: all 300ms ease-in-out;
+      &:hover {
+        color: $black;
+      }
     }
   }
 </style>
