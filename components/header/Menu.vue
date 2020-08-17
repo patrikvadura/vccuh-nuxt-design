@@ -1,6 +1,7 @@
 <template>
-  <div>
-    <ul v-for="item in data.menu" :key="item.id" class="section__links">
+  <div class="section">
+    <div target="nav-collapse" />
+    <ul v-for="item in data.menu" id="nav-collapse" :key="item.id" is-nav class="section__links">
       <li :menu="item.link">
         <n-link :to="`/${item.id}`" target="_self">
           {{ item.link }}

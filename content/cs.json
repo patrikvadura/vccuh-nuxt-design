@@ -1,4 +1,7 @@
 {
+  "global": {
+    "search": "Hledat"
+  },
   "header": {
     "title": "Design System",
     "desc": "Udržte vizuální styl vaší značky napříč všemi materiály."
@@ -28,6 +31,12 @@
       "icon": "add"
     }
   ],
+  "heroComponents": {
+    "title": "Komponenty jako záklaní kámen webu",
+    "desc": "Udržte vizuální styl vaší značky napříč všemi materiály.",
+    "button": "Komponenty",
+    "image": "design_components"
+  },
   "sectionBrand": {
     "title": "Značka",
     "desc": "Our brand reflects who we are and how we want our users to feel when they use our products.",

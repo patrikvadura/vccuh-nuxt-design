@@ -1,9 +1,9 @@
 <template>
   <header class="header">
     <div class="header__content">
-      <b-container fluid="xl">
+      <b-container fluid>
         <b-row>
-          <b-col md="2" class="d-flex flex-row align-items-center">
+          <b-col lg="2" md="3" sm="4" class="d-flex flex-row align-items-center">
             <nuxt-link to="/">
               <LogoNegative width="40" />
             </nuxt-link>
@@ -11,12 +11,12 @@
               {{ data.header.title }}
             </div>
           </b-col>
-          <b-col md="8" class="d-flex flex-row align-items-left">
+          <b-col lg="8" md="6" sm="6" class="d-flex flex-row align-items-left">
             <div class="header__links">
               <Menu />
             </div>
           </b-col>
-          <b-col md="2" class="d-flex flex-row align-items-right">
+          <b-col lg="2" md="3" sm="2" class="d-flex flex-row align-items-right">
             <div class="header__links">
               <MenuSecondary />
             </div>

@@ -12,7 +12,7 @@
       </b-col>
       <b-col md="9">
         <b-container class="bv-example-row">
-          <b-row v-for="item in data.sectionBrandItems" :key="item.id" class="justify-content-center">
+          <b-row v-for="item in data.sectionBrandItems" :key="item.id" class="justify-content-center align-items-baseline">
             <b-col cols="3" class="p-3 section__card">
               <div :section-brand-items="item.title">
                 <img :src="`~/static/images/icons/${item.image}.svg`" alt="icon" class="section__icon" />

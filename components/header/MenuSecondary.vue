@@ -36,7 +36,7 @@ export default {
       margin: 0 0 0 auto;
       li {
         display: inline-block;
-        border-right: 1px solid $font-primary;
+        border-right: 1px solid $black;
         margin-left: 1.5rem;
         padding-right: 1.5rem;
         &:last-child {
@@ -44,11 +44,11 @@ export default {
           padding-right: 0;
         }
         a {
-          color: $font-primary;
+          color: $black;
           font-size: 1.4rem;
           font-weight: 300;
           &:hover, &:focus, &:active {
-            color: $font-primary;
+            color: $black;
             font-weight: 900;
           }
         }

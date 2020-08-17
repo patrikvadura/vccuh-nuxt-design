@@ -1,15 +1,18 @@
 <template>
   <div>
     <div>
+      <HeroComponents />
       <SectionBrand />
     </div>
   </div>
 </template>
 
 <script>
+import HeroComponents from '~/components/body/HeroComponents'
 import SectionBrand from '~/components/body/SectionBrand'
 export default {
   components: {
+    HeroComponents,
     SectionBrand
   },
   data () {
